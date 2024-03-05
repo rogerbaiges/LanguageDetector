@@ -1,22 +1,24 @@
-# Language Detection using Character Trigrams and LID
+# Language Detection Using Character Trigrams and LID
 
 ## Project Overview
-This project presents a state-of-the-art Language Identification (LID) model capable of classifying text samples into one of six languages (English, Spanish, Italian, Dutch, German, and French) with exceptional accuracy. By leveraging character trigrams and the Lidstone Law for probability calculation, our model achieves a remarkable F1-score of 99.89%, demonstrating its efficacy and precision in language detection.
+This innovative project harnesses the power of character trigrams and Lidstone's Law (LID) to accurately identify the language of given text phrases. Designed to distinguish among multiple languages with high precision, our model showcases the effectiveness of leveraging statistical methods and NLP techniques in computational linguistics.
 
-## Features
-- **High Accuracy**: Achieves an F1-score of over 99.89%, showcasing the model's ability to accurately predict the language of given text samples.
-- **Character Trigrams**: Utilizes trigrams of characters as the fundamental feature for language identification, ensuring robust and nuanced language differentiation.
-- **Lidstone Law (LID)**: Employs the Lidstone Law for smoothing and probability estimation, enhancing the model's predictive capability across diverse linguistic patterns.
+## Key Features
+- **Character Trigrams**: Utilizes sequences of three characters as a fundamental feature for language detection.
+- **Lidstone's Law Application**: Employs LID for reliable probability estimation, enhancing the model's predictive accuracy.
+- **Multilingual Support**: Capable of identifying English, Spanish, Italian, Dutch, German, and French, catering to a broad linguistic spectrum.
+- **High Accuracy**: Achieves an exceptional F1-score of over 99.89%, demonstrating superior performance.
 
-## How to Execute
-1. Ensure `main.py` is in the same directory as `abia_bicing.py` for access to `Estacion` and `Estaciones` classes.
-2. Experiment function calls are commented out from line 70 in `main.py`. Uncomment the desired experiment (e.g., `experimentoX()`) for execution.
-3. The experiment 5 must be executed twice for each heuristic. Adjust the `coste_transporte` parameter in `parameters_bicing.py` to `False` (Heuristic 1) or `True` (Heuristic 2) accordingly.
+## Results
+Our model has demonstrated unparalleled accuracy in language detection, achieving an F1-score exceeding 99.89%. This level of precision makes it a highly reliable tool for various applications in NLP and linguistics.
 
-## Visualizations and Analysis
-- The project includes a detailed analysis of classification errors, emphasizing the model's strengths and areas for improvement.
-- Pygame is used for route visualization, and custom `__repr__()/__str__()` methods provide insights into the initial and solved states.
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix_image.png)
+*The confusion matrix illustrates the model's accuracy across different languages, showcasing its ability to correctly identify languages with minimal errors.*
+
+## Additional Model: Naive Bayes Classification
+In addition to our primary approach using character trigrams and LID, we have implemented a version with a Naive Bayes classification model. This model delivers excellent results, providing instant predictions which greatly enhance scalability. The Naive Bayes classifier further solidifies our project's capabilities, offering an efficient alternative for language detection tasks in high-demand environments.
 
 ## Conclusion
-With an F1-score exceeding 99.89%, our language detection model sets a new benchmark for accuracy and efficiency in the field. Its success lies not just in its sophisticated algorithmic foundation but also in its potential for real-world application across various sectors requiring rapid and precise language identification.
+The Language Detection project, with its advanced use of statistical NLP techniques and the inclusion of a Naive Bayes classification model, stands out as a highly accurate and scalable solution for identifying text language. Its success is marked by high-performance metrics and flexibility in application, making it an invaluable tool for the field of computational linguistics.
 

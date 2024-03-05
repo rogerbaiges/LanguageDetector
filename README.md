@@ -1,4 +1,4 @@
-# Language DetectION using Character Trigrams and LID
+# Language Detection using Character Trigrams and LID
 
 ## Project Overview
 This project presents a state-of-the-art Language Identification (LID) model capable of classifying text samples into one of six languages (English, Spanish, Italian, Dutch, German, and French) with exceptional accuracy. By leveraging character trigrams and the Lidstone Law for probability calculation, our model achieves a remarkable F1-score of 99.89%, demonstrating its efficacy and precision in language detection.

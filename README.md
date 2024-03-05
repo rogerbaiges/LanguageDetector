@@ -13,7 +13,7 @@ This innovative project harnesses the power of character trigrams and Lidstone's
 Our model has demonstrated unparalleled accuracy in language detection, achieving an F1-score exceeding 99.89%. This level of precision makes it a highly reliable tool for various applications in NLP and linguistics.
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+<img src="images/confusion_matrix.png" width="300" height="200" alt="Confusion Matrix">
 *The confusion matrix illustrates the model's accuracy across different languages, showcasing its ability to correctly identify languages with minimal errors.*
 
 ## Additional Model: Naive Bayes Classification
@@ -21,4 +21,3 @@ In addition to our primary approach using character trigrams and LID, we have im
 
 ## Conclusion
 The Language Detection project, with its advanced use of statistical NLP techniques and the inclusion of a Naive Bayes classification model, stands out as a highly accurate and scalable solution for identifying text language. Its success is marked by high-performance metrics and flexibility in application, making it an invaluable tool for the field of computational linguistics.
-

@@ -13,7 +13,7 @@ This innovative project harnesses the power of character trigrams and Lidstone's
 Our model has demonstrated unparalleled accuracy in language detection, achieving an F1-score exceeding 99.89%. This level of precision makes it a highly reliable tool for various applications in NLP and linguistics.
 
 ### Confusion Matrix
-<img src="images/confusion_matrix.png" width="300" height="200" alt="Confusion Matrix">
+<img src="images/confusion_matrix.png" width="500" height="367" alt="Confusion Matrix">
 *The confusion matrix illustrates the model's accuracy across different languages, showcasing its ability to correctly identify languages with minimal errors.*
 
 ## Additional Model: Naive Bayes Classification
